@@ -5,7 +5,7 @@ use torrent::open_torrent;
 use torrent::encode::save_to_json_file;
 
 fn main() {
-    let matches = App::new("JSONIFY TORRENT FILE")
+    let matches = App::new("TORRENTIFY")
         .version("0.1")
         .author("@hjoncour")
         .about("Small cli app to convert .torrent to .json")

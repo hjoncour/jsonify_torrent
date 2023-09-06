@@ -1,4 +1,4 @@
-# jsonify_torrent
+# torrentify
 
 ## Setup
 
@@ -14,11 +14,11 @@ $ cargo build
 
 # Test the App
 
-$ ./target/debug/jsonify_torrent <torrent file>
+$ ./target/debug/torrentify <torrent file>
 
 # Example:
 
-$ ./target/debug/jsonify_torrent src/debian.iso.torrent
+$ ./target/debug/torrentify src/debian.iso.torrent
 
  # Compile for Release
 
@@ -26,10 +26,10 @@ $ cargo build --release
 
 # Add to Path
 
-$ cp target/release/jsonify_torrent /usr/local/bin
+$ cp target/release/torrentify /usr/local/bin
 
 # Run App Anywhere
 
-$ jsonify_torrent debian.iso.torrent
+$ torrentify debian.iso.torrent
 
 ```
